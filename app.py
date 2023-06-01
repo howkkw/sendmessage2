@@ -5,7 +5,7 @@ import socket
 
 
 app = Flask(__name__)
-
+print("222시발")
 @app.route('/send')
 def hello_world():
     phone = request.args.get('phone')
